@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* cart start */
+/* content_cart 시작 */
+
+.wrapper {
+	grid-area: wrapper;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	width: 100%; min-width: 1050px;
+}
+
+.content_cart {
+	background-color: white;
+	height: auto; line-height: normal;	
+	
+}
+.content_cart h1 {
+	text-align: center;
+	font-size: 24px; font-weight: 700;
+	height: 50px; line-height: 50px;
+}
+.content_cart .warn {
+	padding-left: 10px;
+	font-size: 13px; border: 1px solid #ccc; border-radius: 5px;
+	height: 60px; line-height: 20px; margin-bottom: 20px;
+}
+.content_cart .warn li#one {
+	color: orangered; font-weight: 700;
+}
+.content_cart .item-information {
+	min-width: 1050px; max-width: 1200px; border-top: 2px solid black;
+	border: 1px solid #777; border-radius: 10px; border-left: none; border-right: none;
+}
+.content_cart .item-information .info,.option,.price,.shipping {
+	font-size: 15px; font-weight: 700; height: 40px; line-height: 40px;
+	border-bottom: 1px solid #ccc;
+}
+.content_cart .item-information .item {
+	font-size: 14px; font-weight: 700; 
+	display: block; margin-top: 10px;
+}
+.content_cart .item-information .item img {
+	float: left; margin-right: 10px
+}
+.content_cart .item-information .ea {
+	font-size: 12px; height: 50px; text-align: center;
+}
+.content_cart .item-information .ea button {
+	border: 1px solid #ccc; border-radius: 5px;
+	cursor: pointer;
+}
+.content_cart .item-information .pr {
+	font-size: 14px; font-weight: bold; text-align: center;
+	height: 40px; line-height: 40px;
+}
+.content_cart .item-information .pr button {
+ border-radius: 5px; background-color: orangered;
+ color: white; font-weight: bold;font-size: 15px;
+ cursor: pointer;
+}
+.content_cart .item-information .sh {
+	font-weight: bold; text-align: center; vertical-align: middle;
+}
+.content_cart .item-information .bt2 button {
+	border-radius: 5px; border: 1px solid #ccc;
+	font-size: 14px; margin: 20px 0 20px 0;
+	cursor: pointer;
+}
+.content_cart .item-information .total {
+	font-size: 18px; font-weight: bold;
+	text-align: center; padding-bottom: 10px;
+}
+.content_cart .item-information .total span {
+	font-size: 20px; font-weight: 700;
+}
+.content_cart .item-information .total span b{
+	color: orangered; font-weight: bold;
+}
+.content_cart .lastbtn {
+	display: flex; justify-content: center; align-content: center;
+	padding-top: 20px;
+}
+.content_cart .lastbtn button#bt1 {
+	border-radius: 5px; border: 1px solid #ccc;cursor: pointer;
+	font-size: 20px; margin-right: 10px; width: 200px; height: 40px;
+}
+.content_cart .lastbtn button#bt2 {
+	border-radius: 5px; border: 1px solid #ccc;
+	color: white; background-color: orangered;
+	font-size: 20px; width: 200px; height: 40px;cursor: pointer;
+}
+.space{
+	margin-bottom: 20px; 
+}
